@@ -1,0 +1,44 @@
+.link-container {
+  display: flex;
+  justify-content:end; /* Space between the logo and the links */
+  align-items: center; /* Aligns the logo and links vertically */
+  background-color: black;
+  padding: 10px 20px;
+}
+
+.link-container img {
+  height: 50px; /* Adjusts the height of the logo to match the navbar */
+  object-fit: contain; /* Keeps the logo aspect ratio */
+}
+
+.link-container a {
+  margin: 12px;
+  padding: 10px 15px;
+  border: 2px solid gold; /* Individual borders around each link */
+  border-radius: 5px;
+  background: none;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+}
+
+.link-container a:hover {
+  color: gold; /* Changes text color to gold on hover */
+  background-color: rgba(255, 215, 0, 0.1); /* Adds a slight gold background on hover */
+  transform: scale(1.05);
+}
+#logo{
+  
+  display : flex ;
+  flex-direction: row;
+  justify-content: right;
+  align-items :start ;
+
+}
+
+
+
+
